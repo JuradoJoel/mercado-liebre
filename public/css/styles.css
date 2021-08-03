@@ -1,0 +1,110 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #ebebeb;
+}
+
+
+img{
+    width: 95vw;        
+}
+
+header{
+    background-color: #EAC926;  
+    height: 65vh;
+}
+
+header div img{
+    padding: 30px 35px 15px;
+    width: 25vh;
+}
+
+.lupa, .searchBar{
+    margin-left: 20px;
+    background-color: white;
+    border: 1px solid #000;
+}
+
+.searchBar{
+    width: 210px;
+    color: #666;
+}
+
+.lupa{
+    width: 20px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.mano{
+    text-align: center;
+}
+
+
+header nav ul li{
+    list-style: none;
+
+}
+
+header nav ul li a{ 
+    text-decoration: none;
+    color: black;
+}
+
+.botonHamburguesa{
+    text-align: center;
+    background-color: #1259c3;
+    color: white;
+    padding: 5px;
+    display: block;
+    width: 25px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+h2{
+    font-size: 24px;
+}
+.precios{
+    font-size: 18px;
+}
+.descuentos, .descripciones{
+    font-size: 16px;
+}
+
+.detalle{
+    margin: 2%;
+    background-color: white;
+    color: #666;  
+    width: 90vw;
+}
+
+footer{
+    padding-top: 15%;
+    text-align: center;
+    background-color: white;
+}
+
+footer p{
+    color: #666;
+    font-size: 12px;
+    padding: 0 10%;
+}
+
+.iconos{
+    font-size: 2em;
+    color: #1259c3;
+    margin-bottom: 5px;
+}
+
+footer h3{
+    color: #666;    
+}
+
+.copyright{ 
+    text-align: left;
+    padding-bottom: 2%;
+
+}
