@@ -1,3 +1,6 @@
+@import url('./register.css');
+@import url('./formularios.css');
+
 *{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
@@ -17,6 +20,7 @@ header{
     width: 100%;
     background-color: #EAC926;  
     font-size: 12px;
+    
 }
 header .logoSearch{
     padding-top: 10px;
@@ -78,6 +82,8 @@ header nav ul li a{
 
 main{
     width: 90%;
+    margin: 0 auto;
+
 }
 
 body main section article{
@@ -113,9 +119,18 @@ main section h4{
     width: 100%;
 
 }
-main section article{
-    margin: 10px 0;
+
+
+main section .detalle{  
+    background-color: white;
+    color: #666;
+    padding: 15px;
 }
+
+
+/* main section article{
+    margin: 10px 0;
+} */
 main section article .detalle .precioDescuento{
     display: flex;
 }
@@ -124,12 +139,12 @@ main section article .detalle .precioDescuento{
     color: black;
     font-size: 18px;
     margin: 0;
-    flex-grow: 0.3;
+    flex-grow: 0.3;   
 }
 .descuentos{
     color: green;
     margin: 0;
-    flex-grow: 0.7;
+    flex-grow: 0.7;    
 }
 .descuentos, .descripciones{
     font-size: 16px;
@@ -138,11 +153,6 @@ main section article .detalle .precioDescuento{
     display: none;
 }
 
-.detalle{
-    background-color: white;
-    color: #666;   
-    padding: 10px;
-}
 
 footer{
     padding-top: 15%;
@@ -225,4 +235,8 @@ footer h3{
   header nav ul li{
       margin: 0 10px;
   }
+  main section article{
+    box-shadow: -1px 1px 5px 2px rgba(0,0,0,0.48);
+    width: 22%;    
+}  
 }
