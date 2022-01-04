@@ -88,6 +88,10 @@ main{
 
 body main section article{
     margin: 10px auto;
+    transition: all ease .3s;
+}
+body main section article:hover{
+    box-shadow: -1px 1px 5px 2px rgba(0,0,0,0.48);
 }
 
 h4{
@@ -150,7 +154,15 @@ main section article .detalle .precioDescuento{
     font-size: 16px;
 }
 .descripciones{
-    display: none;
+    height: 0;
+    transition: all ease .3s;
+    overflow: hidden; 
+    /* display: none; */
+}
+main section article:hover .detalle .descripciones{
+    height: 20px;
+    margin-top: 10px;
+
 }
 
 
@@ -184,7 +196,7 @@ footer h3{
     padding-bottom: 2%;
 }
 
-/*tablet */
+/*******tablet *******/
 @media (min-width: 768px) {
     header .logoSearch .logo{
         width: 30%;
@@ -201,7 +213,7 @@ footer h3{
         display: block;
     }
      main section article{
-        box-shadow: -1px 1px 5px 2px rgba(0,0,0,0.48);
+        
         width: 40%;    
     }  
 
@@ -229,14 +241,20 @@ footer h3{
 
 
 
-
+/*******Desktop *******/
 @media (min-width: 1024px) {
 
   header nav ul li{
       margin: 0 10px;
   }
   main section article{
-    box-shadow: -1px 1px 5px 2px rgba(0,0,0,0.48);
+    /* box-shadow: -1px 1px 5px 2px rgba(0,0,0,0.48); */
     width: 22%;    
-}  
+  }  
+  main section article .detalle .descripciones{
+      
+  }
+
 }
+
+/* quedé 09:55 */
