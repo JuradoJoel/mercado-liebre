@@ -51,12 +51,20 @@ button:hover{
     background-color: red;
 }
 
-.btn-verde{
-    background-color: green;    
+.btn-celeste{
+    background-color: rgb(51, 51, 219);    
 }
 
 .register-login .contenedor .container-buttons button{
     color: white;
+    transition: background-color linear .3s;
+    
 } 
+.btn-celeste:hover{        
+    background-color: #0022AA;   
+}   
+.btn-rojo:hover{        
+    background-color: #af1414;   
+}  
 
-
+/* 22.34 */
